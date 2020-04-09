@@ -7,5 +7,5 @@
 #end
 
 def reverse_each_word(sentence)
-  sentence.split {|i| i.reverse}
+  sentence.split.map {|i| i.reverse}
 end
